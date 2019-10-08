@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LuisRodriguezMuñoz_TICS_7T11_Proyecto</string>
+    <string name="inicio">inicio</string>
+    <string name="resumen">aprende a cocinar una variedad de recetas faciles, recetas mexicanas y muy saludables</string>
+    <string name="resumen1">aprende a cocinar recetas ricas y faciles, mexicanas y muy saludables en esta aplicacion te recolectamos una serie de recetas</string>
+    <string name="entrar">entrar</string>
+    <string name="Recetas">Recetas</string>
+    <string name="arroz">Cómo preparar arroz verde</string>
+    <string name="RECETA">RECETA</string>
+    <string name="VER1">VER</string>
+    <string name="ver2">VER</string>
+    <string name="arroz2">CÓMO HACER ARROZ ROJO CON CHILES</string>
+    <string name="resume2">INSTRUCCIONES Sofríe el arroz con el elote y el chile poblano. Licua el cilantro con la cebolla, el ajo y el agua; salpimienta. Cuando comience a dorar el arroz agrega la mezcla y calienta hasta que hierva. Reduce el fuego al mínimo, cocina por 20 minutos. Destapa y esponja con un tenedor. Coloca en el plato, esparce crema y queso. Sirve caliente. 1 taza de queso doble crema</string>
+
+    <string name="receta">INSTRUCCIONES Licua el ajo, cebolla y jitomate con el agua, salpimienta. Dora el arroz con el aceite y chile serrano, agrega el caldillo y cuece durante 10 minutos con tapa a fuego medio, agrega las verduras y sigue cociendo cinco minutos más. Retira del fuego y deja reposar, esponja con un tenedor. TIEMPO: 30m  PORCIONES: 4 porciones</string>
+</resources>

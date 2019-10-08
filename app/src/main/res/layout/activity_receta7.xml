@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".receta7">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="402dp"
+        android:layout_height="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        app:srcCompat="@drawable/birria" />
+
+    <Button
+        android:id="@+id/volver7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volver"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <ScrollView
+        android:layout_width="397dp"
+        android:layout_height="219dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="371dp"
+                android:layout_height="283dp"
+                android:layout_marginTop="24dp"
+                android:text="INSTRUCCIONES
+Pon a asar en un comal los jitomates, los chiles y los ajos, cuidando que estos últimos no se tuesten porque se amargan. Retira las semillas y pon a hervir los chiles en agua.
+Muele los chiles con los ajos, las pimientas, el orégano, sal y el pulque. Si no agregas pulque, usa el agua en la que herviste los chiles para poder molerlos.
+Unta la carne con sal de grano y báñala con la salsa. Refrigera durante un día.
+Cocina en una olla a presión por una hora o hasta que la carne se desprenda del hueso. Retira la carne del fuego y cuélala.
+Quita la piel de los jitomates y lícualos con el caldo de carne. Cocina a fuego medio por 15 minutos. Agrega la carne.
+Sirve con cilantro, cebolla y chile de árbol. Exprime limón al gusto."
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

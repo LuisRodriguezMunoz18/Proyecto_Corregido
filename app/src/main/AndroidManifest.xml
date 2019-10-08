@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luisrodriguezmuoz_tics_7t11_proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".receta10"></activity>
+        <activity android:name=".receta9" />
+        <activity android:name=".receta8" />
+        <activity android:name=".receta7" />
+        <activity android:name=".receta6" />
+        <activity android:name=".receta5" />
+        <activity android:name=".receta3" />
+        <activity android:name=".receta4" />
+        <activity android:name=".receta2" />
+        <activity android:name=".receta1" />
+        <activity android:name=".vista2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

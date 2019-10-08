@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".receta8">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="402dp"
+        android:layout_height="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739"
+        app:srcCompat="@drawable/pozole" />
+
+    <Button
+        android:id="@+id/volver8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volver"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <ScrollView
+        android:layout_width="397dp"
+        android:layout_height="219dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="371dp"
+                android:layout_height="283dp"
+                android:layout_marginTop="24dp"
+                android:text="INSTRUCCIONES
+Lava el maíz y ponlo a hervir en olla de presión durante 20 minutos. Aparte, pon a cocer el pollo en una cacerola con un poco de sal. Deshebra y reserva el caldo.
+Asa los chiles, retira las semillas y remójalos en agua caliente por 10 minutos.
+Licúa los chiles con la cebolla y el ajo en la misma agua donde pusiste los chiles.
+Fríe la mezcla en un poco de aceite y añádelo al caldo de pollo. Cuela el maíz y agrégalo al caldo también. Deja hervir otros 10 minutos más.
+Dispón en la mesa la crema, lechuga, rábanos, limones, orégano, aguacate, chile y tostadas para montar sobre cada plato."
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
